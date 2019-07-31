@@ -1,0 +1,26 @@
+[debug] [2019-07-31T09:53:03.987Z] ----------------------------------------------------------------------
+[debug] [2019-07-31T09:53:03.990Z] Command:       C:\likelion\firebase-cli.exe C:\Users\Panda\.cache\firebase\cli\node_modules\firebase-tools\lib\bin\firebase serve
+[debug] [2019-07-31T09:53:03.990Z] CLI Version:   7.2.2
+[debug] [2019-07-31T09:53:03.990Z] Platform:      win32
+[debug] [2019-07-31T09:53:03.991Z] Node Version:  v10.4.1
+[debug] [2019-07-31T09:53:03.994Z] Time:          Wed Jul 31 2019 18:53:03 GMT+0900 (GMT+09:00)
+[debug] [2019-07-31T09:53:03.994Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-31T09:53:04.004Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-31T09:53:04.005Z] > authorizing via signed-in user
+[debug] [2019-07-31T09:53:04.005Z] [iam] checking project paik-b7d32 for permissions ["firebase.projects.get"]
+[debug] [2019-07-31T09:53:04.007Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/paik-b7d32:testIamPermissions  
+
+[debug] [2019-07-31T09:53:05.025Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-31T09:53:05.028Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/paik-b7d32  
+ 
+[debug] [2019-07-31T09:53:05.987Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\likelion'...
+[info] 
+[debug] [2019-07-31T09:53:05.995Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/paik-b7d32/webApps/-/config  
+ 
+[debug] [2019-07-31T09:53:06.958Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] Shutting down...
